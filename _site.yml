@@ -1,17 +1,15 @@
-name: "intro to data science"
+name: "intro to personality"
 output_dir: "."
 navbar:
   title: ""
   left:
-    - text: "honors intro data sci"
+    - text: "honors personality"
       href: index.html
     - text: "syllabus"
-      href: syllabus.html
+      href: PersonalityF2021Syllabus.html
     - text: "schedule"
-      href: schedule.html
-    - text: "R4DS (Wickham)" 
-      href: https://r4ds.had.co.nz/introduction.html
-    - text: "dsla (Lanning)"
-      href: https://kevinlanning.github.io/DataSciLibArts/
-    - text: "RStudio Cloud"
-      href: https://rstudio.cloud/
+      href: PersonalityF2021Schedule.html
+    - text: "canvas"
+      href: https://canvas.fau.edu/courses/108595
+    - text: "inquisitive"
+      href: https://ncia.wwnorton.com/inquizitive-puzzle8
