@@ -1,0 +1,233 @@
+---
+title: 'syllabus: honors personality'
+author: ''
+date: ''
+output:
+  html_document: default
+---
+
+This document is current as of `r Sys.Date()`.
+
+### basics
+
+This is **PPE 3003 Section 1**. It is a 3-credit class offered in the **Fall 2021** term. The class meets **MW 1230-2 in WB 105**. There is no lab.
+
+The professor is Kevin Lanning. My office hours are **M 3-5** (in person, WB 105) and **F 1230-2** (virtually, via Zoom). You may schedule virtual appointments at <https://calendly.com/kevin-lanning>. My office phone is (561) 594-1018, but it is quicker to reach me via email at [lanning\@fau.edu](mailto:lanning@fau.edu){.email}.
+
+**course description:** Psychology 3003H is an honors survey of theory and research in the psychology of personality.
+
+**course instructional method:** In-person. 
+
+**course prerequisites / co-requisites**: PSY 1012 is a prerequisite.
+
+### course objectives / student learning outcomes
+
+In the seminar, the primary goal is to introduce students to the field of personality theory and research. Personality is one of the core sub-disciplines within psychology; it is distinct from other areas in psychology in its simultaneous emphasis on (a) broad theories of human nature, (b) research on the most important ways in which people differ, and finally, (c) its recognition of the central idea that each of us is unique. **The study of personality is a central part of both the psychology concentration and, more broadly, a liberal arts education**.
+
+**note of honors distinction:** The course receives honors credit by virtue of its small class size, by virtue of a dialectic approach in the classroom structure, and by the fact that students receive extensive exposure to supplementary materials and primary sources. This course differs substantially from a non-Honors course in that (a) the expectations for participation in class discussions will be greater than in a typical undergraduate course with a larger number of students, (b) class projects will be undertaken in heterogeneous groups in which students will be teaching and learning from their peers as well as the instructor, (c) students receive extensive exposure to primary research articles.
+
+### course assessments, assignments, & grading policy
+
+Grades will be based on a 100 point scale, with points earned by participation, small assignments/quizzes, two exams, and, optionally, extra credit.
+
+**participation** (10 points). Attendance is a necessary but not sufficient part of class participation. Your participation grade will be based also on the extent to which you contribute to our class by asking constructive questions and helping your classmates solve the numerous challenges which we will collectively face. That is, you can earn participation points by showing up, learning, engaging, and helping your classmates (particularly in small breakout groups).
+
+**small assignments and online quizzes** (30 points) You can earn up to 25 points by (a) writing a simple autobiography and reviewing the autobiographies of three of your classmates (10 points) **and** (b) successfully completing any **fifteen** of the "inquizitive" chapter quizzes (15 points). Note that, for credit, these quizzes need to be completed on or before the date the chapter is discussed in class. Please see the [assignments](https://canvas.fau.edu/courses/90938/assignments) page if you have questions. 
+
+*As an alternative to the inquizitive quizzes, students may earn up to 15 points by watching and reporting on additional Up Series videos (at the rate of 5 points for each 3 videos) and/or submitting 3-page reports on the unassigned chapters of the Funder text (Chapters 5, 13, and 16-18).*
+
+**midterm exam** (25 points). The midterm is likely to include multiple-choice, short-answer, and essay questions. The essay questions will be a (small) subset of a (large) number of questions that will be presented to you in the week before the exam. The exam will cover both readings and lecture/discussion materials. 
+
+**final exam** (35 points). The structure of the final exam will be similar to that of the midterm. Exams are likely to include multiple-choice, short-answer, and essay questions. Exams will cover both readings and lecture/discussion materials. The final exam will be at least nominally cumulative, and will include a biographical essay about a (particular) "healthy" or "optimal" personality. 
+
+**extra credit** (up to 5 points). You may earn extra credit by watching any three episodes of the *Up Series* and contributing to a discussion of the film and its participants during the last week of class. Students choosing this option must let me know in writing no later than October 27. 
+
+### course grading scale
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+library(kableExtra)
+scale <- tibble (grade = c("A","A-","B+",
+                           "B","B-","C+",
+                           "C","C-","D+",
+                           "D","D-","F"),
+                 min = c(93, 90, 87,
+                        83, 80, 77,
+                        73, 70, 67,
+                        63, 60, 0),
+                 max = c(100, 92, 89,
+                        86, 82, 79,
+                        76, 72, 69,
+                        66, 62, 59))
+kable(t(scale)) %>% 
+    kable_styling()
+
+```
+
+_note that in borderline cases, students may receive the higher of two grades if there is evidence of sustained effort and/or improvement over the course of the term_
+
+### required texts and materials
+
+Funder, D. C. (2019). *The Personality Puzzle*, 8th ed. New York: Norton. (*required. Note that you will need to purchase a copy with access to the Inquisitive online testing/review supplement*).  
+
+In addition, there are readings which are available on Canvas; these are listed below as well. Several of these will be assigned over the course of the term as supplemental readings; others may serve as the basis for your term project.
+
+### language about free speech, objectivity, academic freedom, and interpersonal trust (added in response to Florida HB7) ###
+
+**language recommended by the FAU Provost's office** “One of the objectives of this course is to facilitate critical thinking and debate around topics, theories, and concepts where disagreement is not only anticipated, but encouraged. The ability to think critically, express your ideas clearly, and respond to the professor and other students civilly are the keystones of the academic experience. In this course, the professor will provide instruction in an objective manner and will remain open to a wide variety of viewpoints, so long as those viewpoints are evidence-based and presented in a respectful way. During class, the professor may take positions and make statements for the sole purpose of accomplishing an academic objective or enhancing the learning environment. Additionally, the adoption of class materials for this course does not imply an endorsement of the full content of those materials or the positions of the authors of those materials. Often the professor will provide materials as a point of departure for critical thinking and debate. Students should keep in mind that the ideas presented or discussed during class may not necessarily reflect the professor’s personal beliefs or opinions on the subject matter.”
+
+**language recommended by the United Faculty of Florida** "Students are encouraged to employ critical thinking and to rely on data and verifiable sources to interrogate all assigned readings and subject matter in this course as a way of determining whether they agree with their classmates and/or their instructor. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief."
+
+**a personal comment** It is critical that the interpersonal trust and appreciation for human dignity that characterize the campus community and frame our classroom discourse remain intact.
+
+------
+
+### schedule and due dates
+
+The schedule is a dynamic document. While due dates for exams are, pending any university-wide mandates, fixed, all other dates and content are subject to change. Please monitor the working schedule for the latest updates. The live schedule is linked in Canvas; you may also find it at  <https://bit.ly/PersonalityF2022Schedule>, or in the following window (current as of `r Sys.Date()`):
+
+<iframe width="800" height="600" src="https://docs.google.com/spreadsheets/d/1CY8rRAtz9-dt3yCvuiDT2ThDMLeX5OCXGfgRioL4rSs/edit?usp=sharing">
+
+</iframe>
+
+Again, please see <https://bit.ly/PersonalityF2022Schedule> for the latest updates.
+
+**special course requirements**: None.
+
+### additional selected university & college policies
+
+**incomplete grade policy:** University policy states that a student who is passing a course, but has not completed all work due to exceptional circumstances, may, with consent of the instructor, temporarily receive a grade of incomplete ("I"). The assignment of the "I" grade is at the discretion of the instructor, but is allowed only if the student is passing the course.
+
+**attendance policy:** Students are expected to attend all of their scheduled University classes and to satisfy all academic objectives as outlined by the instructor. The effect of absences upon grades is determined by the instructor, and the University reserves the right to deal at any time with individual cases of non-attendance. Students are responsible for arranging to make up work missed because of legitimate class absence, such as illness, family emergencies, military obligation, court-imposed legal obligations or participation in University-approved activities. Examples of University-approved reasons for absences include participating on an athletic or scholastic team, musical and theatrical performances and debate activities. It is the student’s responsibility to give the instructor notice prior to any anticipated absences and within a reasonable amount of time after an unanticipated absence, ordinarily by the next scheduled class meeting. Instructors must allow each student who is absent for a University-approved reason the opportunity to make up work missed without any reduction in the student’s final course grade as a direct result of such absence.
+
+**time commitment per credit hour:** This course has three (3) credit hours. For traditionally delivered courses, not less than one (1) hour of classroom or direct faculty instruction each week is expected for fifteen (15) weeks per Fall or Spring semester, and a minimum of two (2) hours of out-of-class student work for each credit hour. Equivalent time and effort is required for Summer Semesters, which usually have a shortened timeframe. Fully online courses, hybrid, shortened, intensive format courses, and other non-traditional modes of delivery will demonstrate equivalent time and effort.
+
+
+**classroom etiquette/disruptive behavior policy statement:** Disruptive behavior is defined in the FAU Student Code of Conduct as "... activities which interfere with the educational mission within classroom." Students who disrupt the educational experiences of other students and/or the instructor's course objectives in a face-to-face or online course are subject to disciplinary action. Such behavior impedes students' ability to learn or an instructor's ability to teach. Disruptive behavior may include, but is not limited to non-approved use of electronic devices (including cellular telephones); cursing or shouting at others in such a way as to be disruptive; or, other violations of an instructor's expectations for classroom conduct. For more information, please see the [FAU Office of Student Conduct](http://www.fau.edu/studentconduct/).
+
+**code of academic integrity policy statement:** Students at Florida Atlantic University should endeavor to maintain the highest ethical standards. Academic dishonesty is a serious breach of these ethical standards, because it interferes with the University mission to provide a high quality education in which no student enjoys an unfair advantage over any other. Academic dishonesty is also destructive to the university community, which is grounded in a system of mutual trust and places high value on personal integrity and individual responsibility. Harsh penalties are associated with academic dishonesty. For more information, see [University Regulation 4.001](http://www.fau.edu/regulations/chapter4/4.001_Code_of_Academic_Integrity.pdf) and the WHC code at <http://www.fau.edu/honors/academics/honor-code.php>.
+
+[**Plagiarism**](http://libguides.fau.edu/c.php?g=325629&p=2352760) is the deliberate use and appropriation of another's work without identifying the source and trying to pass off such work as one's own. Any student who fails to give full credit for ideas or materials taken from another has plagiarized. This includes all discussion board posts, journal entries, wikis, and other written and oral presentation assignments. Plagiarism is unacceptable in the University community. Academic work must be an original work of your own thought, research, or self-expression. When students borrow ideas, wording, or organization from another source, they must acknowledge that fact in an appropriate manner. If in doubt, cite your source.
+
+**disability (accessibility) policy statement:** In compliance with the Americans with Disabilities Act Amendments Act (ADAAA), students who require reasonable accommodations due to a disability to properly execute coursework must register with Student Accessibility Services (SAS) and follow all SAS procedures. SAS has offices across three of FAU’s campuses – Boca Raton, Davie and Jupiter – however disability services are available for students on all campuses. For more information, please visit the SAS website at [www.fau.edu/sas/](http://www.fau.edu/sas/).
+
+**grade appeal process:** You may request a review of the final course grade when you believe that one of the following conditions apply: There was a computational or recording error in the grading, the grading process used non-academic criteria, there was a gross violation of the instructor's own grading system. [Chapter 4 of the University Regulations](http://www.fau.edu/regulations/chapter4/index.php) contains information on the grade appeals process.
+
+**religious accommodation policy statement:** In accordance with rules of the Florida Board of Education and Florida law, students have the right to reasonable accommodations from the University in order to observe religious practices and beliefs with regard to admissions, registration, class attendance, and the scheduling of examinations and work assignments. For further information, please see [Academic Policies and Regulations](http://www.fau.edu/academic/registrar/FAUcatalog/academics.php).
+
+**university approved absence policy statement:** In accordance with rules of the Florida Atlantic University, students have the right to reasonable accommodations to participate in University approved activities, including athletic or scholastics teams, musical and theatrical performances and debate activities. It is your responsibility to notify the instructor at least one week prior to missing any course assignment.
+
+**drops/withdrawals:** You are responsible for completing the process of dropping or withdrawing from a course. Please click on the following link for more information on dropping and/or withdrawing from a course. Please consult the [FAU Registrar Office](http://www.fau.edu/registrar/registration/faqs.php) for more information.
+
+**counseling and psychological services (CAPS) center:** Life as a university student can be challenging physically, mentally and emotionally. Students who find stress negatively affecting their ability to achieve academic or personal goals may wish to consider utilizing FAU's Counseling and Psychological Services (CAPS) Center. CAPS provides FAU students a range of services -- individual counseling, support meetings, and psychiatric services, to name a few -- offered to help improve and maintain emotional well-being. For more information, go to \_[*http://www.fau.edu/counseling/*](http://www.fau.edu/counseling/).
+
+## additional readings
+
+Some additional readings are listed below.  Note that only a few of these are required, a few others are recommended, and the remainder are optional (e.g., likely to be useful for students writing term papers on a particular topic).
+
+Backstrom, M., Larsson, M. R., & Maddux, R. E. (2009). A structural validation of an inventory based on the Abridged Five Factor Circumplex Model (AB5C). Journal of Personality Assessment, 91(5), 462–472. https://doi.org/10/dd5j5n
+
+Baumert, A., Schmitt, M., Perugini, M., Johnson, W., Blum, G., Borkenau, P., … Wrzus, C. (2017). Integrating Personality Structure, Personality Process, and Personality Development: Integrating personality. *European Journal of Personality*, *31*(5), 503–528. https://doi.org/10/gfpf3b
+
+Bem, D. J. (n.d.). *Is There a Causal Link Between Childhood Gender Nonconformity and Adult Homosexuality?* 20.
+
+Benet-Martínez, V., Donnellan, M. B., Fleeson, W., Fraley, R. C., Gosling, S. D., King, L. A., … Funder, D. C. (2015). Six visions for the future of personality psychology. In M. Mikulincer, P. R. Shaver, M. L. Cooper, & R. J. Larsen (Eds.), *APA handbook of personality and social psychology, Volume 4: Personality processes and individual differences.* (pp. 665–689). https://doi.org/10.1037/14343-030
+
+Bleidorn, W., Hill, P., Back, M., Denissen, J. J. A., Hennecke, M., Hopwood, C. J., … Roberts, B. (2019). *The Policy Relevance of Personality Traits* [Preprint]. https://doi.org/10.31234/osf.io/a9rbn
+
+Block, J. (1968). Some reasons for the apparent inconsistency of personality. *Psychological Bulletin*, *70*(3, Pt.1), 210–212. https://doi.org/10.1037/h0026190
+
+Block, J. (2010). The Five-Factor Framing of Personality and Beyond: Some Ruminations. *Psychological Inquiry*, *21*(1), 2–25. https://doi.org/10/d58bw2
+
+Block, J. H., Block, J., & Gjerde, P. F. (1986). The Personality of Children Prior to Divorce: A Prospective Study. *Child Development*, *57*(4), 827. https://doi.org/10.2307/1130360
+
+Brummelman, E., Thomaes, S., & Sedikides, C. (2016). Separating Narcissism From Self-Esteem. *Current Directions in Psychological Science*, *25*(1), 8–13. https://doi.org/10.1177/0963721415619737
+
+Buss, D. M. (2009). How Can Evolutionary Psychology Successfully Explain Personality and Individual Differences? *Perspectives on Psychological Science*, *4*(4), 359–366. https://doi.org/10.1111/j.1745-6924.2009.01138.x
+
+Caspi, A., Harrington, H., Milne, B., Amell, J. W., Theodore, R. F., & Moffitt, T. E. (2003). Children’s Behavioral Styles at Age 3 Are Linked to Their Adult Personality Traits at Age 26: From Age 3 to Age 26. *Journal of Personality*, *71*(4), 495–514. https://doi.org/10.1111/1467-6494.7104001
+
+Cogsdill, E. J., Todorov, A. T., Spelke, E. S., & Banaji, M. R. (2014). Inferring Character From Faces: A Developmental Study. *Psychological Science*, *25*(5), 1132–1139. https://doi.org/10/f54j4q
+
+Damian, R. I., Su, R., Shanahan, M., Trautwein, U., & Roberts, B. W. (2015). Can personality traits and intelligence compensate for background disadvantage? Predicting status attainment in adulthood. *Journal of Personality and Social Psychology*, *109*(3), 473–489. https://doi.org/10/gckfsh
+
+Denissen, J. J. A., Bleidorn, W., Hennecke, M., Luhmann, M., Orth, U., Specht, J., & Zimmermann, J. (n.d.). *Uncovering the Power of Personality to Shape Income*. 11.
+
+DeYoung, C. G. (2010). Personality Neuroscience and the Biology of Traits: Personality Neuroscience. *Social and Personality Psychology Compass*, *4*(12), 1165–1180. https://doi.org/10.1111/j.1751-9004.2010.00327.x
+
+DeYoung, C. G., Hirsh, J. B., Shane, M. S., Papademetris, X., Rajeevan, N., & Gray, J. R. (2010). Testing Predictions From Personality Neuroscience: Brain Structure and the Big Five. *Psychological Science*, *21*(6), 820–828. https://doi.org/10.1177/0956797610370159
+
+Diener, E., Kanazawa, S., Suh, E. M., & Oishi, S. (2015). Why People Are in a Generally Good Mood. *Personality and Social Psychology Review*, *19*(3), 235–256. https://doi.org/10/f7jmpq
+
+Donnellan, M. B., Larsen-Rife, D., & Conger, R. D. (2005). Personality, Family History, and Competence in Early Adult Romantic Relationships. *Journal of Personality and Social Psychology*, *88*(3), 562–576. https://doi.org/10/bn7wcr
+
+Draper, P., & Beisky, J. (1990). Personality development in evolutionary perspective. Journal of Personality, 58(1), 141–161.
+
+Fang, S., Galambos, N. L., Johnson, M. D., & Krahn, H. J. (2018). Happiness is the way: Paths to civic engagement between young adulthood and midlife. *International Journal of Behavioral Development*, *42*(4), 425–433. https://doi.org/10.1177/0165025417711056
+
+Furnham, A., Richards, S. C., & Paulhus, D. L. (2013). The Dark Triad of Personality: A 10 Year Review: Dark Triad of Personality. *Social and Personality Psychology Compass*, *7*(3), 199–216. https://doi.org/10/6fb
+
+Goldberg, L. R., Johnson, J. A., Eber, H. W., Hogan, R., Ashton, M. C., Cloninger, C. R., & Gough, H. G. (2006). The international personality item pool and the future of public-domain personality measures. Journal of Research in Personality, 40(1), 84–96. https://doi.org/10/dwwn9d
+
+Gurven, M., von Rueden, C., Massenkoff, M., Kaplan, H., & Lero Vie, M. (2013). How universal is the Big Five? Testing the five-factor model of personality variation among forager–farmers in the Bolivian Amazon. *Journal of Personality and Social Psychology*, *104*(2), 354–370. https://doi.org/10.1037/a0030841
+
+Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences*, *33*(2–3), 61–83. https://doi.org/10.1017/S0140525X0999152X
+
+Jayawickreme, E., & Blackie, L. E. R. (2014). Post-traumatic Growth as Positive Personality Change: Evidence, Controversies and Future Directions: Post-traumatic growth. *European Journal of Personality*, *28*(4), 312–331. https://doi.org/10/f6drhd
+
+King, L. A., Heintzelman, S. J., & Ward, S. J. (2016). Beyond the Search for Meaning: A Contemporary Science of the Experience of Meaning in Life. *Current Directions in Psychological Science*, *25*(4), 211–216. https://doi.org/10.1177/0963721416656354
+
+Lahey, B. B. (2009). Public health significance of neuroticism. *American Psychologist*, *64*(4), 241–256. https://doi.org/10.1037/a0015309
+
+Leith, K. P., & Baumeister, R. F. (1996). Why do bad moods increase self-defeating behavior? Emotion, risk tasking, and self-regulation. *Journal of Personality and Social Psychology*, *71*(6), 1250–1267. https://doi.org/10.1037/0022-3514.71.6.1250
+
+Letzring, T. D., Block, J., & Funder, D. C. (2005). Ego-control and ego-resiliency: Generalization of self-report scales based on personality descriptions from acquaintances, clinicians, and the self. *Journal of Research in Personality*, *39*(4), 395–422. https://doi.org/10/bt2dqq
+
+Lilgendahl, J. P., & McAdams, D. P. (2011). Constructing Stories of Self-Growth: How Individual Differences in Patterns of Autobiographical Reasoning Relate to Well-Being in Midlife: Stories of Self-Growth. *Journal of Personality*, *79*(2), 391–428. https://doi.org/10/b8ddxj
+
+Lyubomirsky, S. (2001). Why Are Some People Happier Than Others? *American Psychologist*, 11.
+
+Matz, S. C., & Gladstone, J. J. (2018). Nice guys finish last: When and why agreeableness is associated with economic hardship. *Journal of Personality and Social Psychology*. https://doi.org/10.1037/pspp0000220
+
+McAdams, D. P. (1995). What Do We Know When We Know a Person? *Journal of Personality*, *63*(3), 365–396. https://doi.org/10.1111/j.1467-6494.1995.tb00500.x
+
+Mike, A., King, H., Oltmanns, T. F., & Jackson, J. J. (2018). Obsessive, compulsive, and conscientious? The relationship between OCPD and personality traits. *Journal of Personality*, *86*(6), 952–972. https://doi.org/10/gcz63h
+
+Moskowitz, D. S., & Zuroff, D. C. (2004). Flux, Pulse, and Spin: Dynamic Additions to the Personality Lexicon. *Journal of Personality and Social Psychology*, *86*(6), 880–893. https://doi.org/10/dnw4m8
+
+Norem, J. K., & Illingworth, K. S. S. (2004). Mood and performance among defensive pessimists and strategic optimists. *Journal of Research in Personality*, *38*(4), 351–366. https://doi.org/10.1016/j.jrp.2003.07.002
+
+Olweus, D. (1995). Bullying or peer abuse at school: Facts and intervention. *Current Directions in Psychological Science*, *4*(6), 196–200.
+
+Orth, U., & Robins, R. W. (2014). The Development of Self-Esteem. *Current Directions in Psychological Science*, *23*(5), 381–387. https://doi.org/10.1177/0963721414547414
+
+Parks-Leduc, L., Feldman, G., & Bardi, A. (n.d.). Personality Traits and Personal Values: A Meta-Analysis. *Personality and Social Psychology Review*, 28.
+
+Peplau, L. A., & Garnets, L. D. (2000). A New Paradigm for Understanding Women’s Sexuality and Sexual Orientation. *Journal of Social Issues*, *56*(2), 330–350. https://doi.org/10.1111/0022-4537.00169
+
+Putnam, A. L., Ross, M. Q., Soter, L. K., & Roediger, H. L. (2018). Collective Narcissism: Americans Exaggerate the Role of Their Home State in Appraising U.S. History. *Psychological Science*, *29*(9), 1414–1422. https://doi.org/10.1177/0956797618772504
+
+Rauthmann, J. F., Gallardo-Pujol, D., Guillaume, E. M., Todd, E., Nave, C. S., Sherman, R. A., … Funder, D. C. (2014). The Situational Eight DIAMONDS: A taxonomy of major dimensions of situation characteristics. *Journal of Personality and Social Psychology*, *107*(4), 677–718. https://doi.org/10/f6xbqc
+
+Roberts, B. W., Kuncel, N. R., Shiner, R., Caspi, A., & Goldberg, L. R. (2007). The Power of Personality: The Comparative Validity of Personality Traits, Socioeconomic Status, and Cognitive Ability for Predicting Important Life Outcomes. *Perspectives on Psychological Science*, *2*(4), 313–345. https://doi.org/10.1111/j.1745-6916.2007.00047.x
+
+Roberts, B. W., & Mroczek, D. (2008). Personality Trait Change in Adulthood. *Current Directions in Psychological Science*, *17*(1), 31–35. https://doi.org/10.1111/j.1467-8721.2008.00543.x
+
+Rothbart, M. K. (2007). Temperament, Development, and Personality. Current Directions in Psychological Science, 16(4), 207–212. https://doi.org/10.1111/j.1467-8721.2007.00505.x
+
+Runyan, W. M. (n.d.). *Psychobiography and the Psychology of Science: Encounters With Psychology, Philosophy, and Statistics*. 28.
+
+Soto, C. J., & John, O. P. (2017). The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power. *Journal of Personality and Social Psychology*, *113*(1), 117–143. https://doi.org/10.1037/pspp0000096
+
+Stacey, J., & Biblarz, T. J. (2001). (How) Does the Sexual Orientation of Parents Matter? *American Sociological Review*, *66*(2), 159. https://doi.org/10.2307/2657413
+
+Trull, T. J., & Durrett, C. A. (2005). Categorical and Dimensional Models of Personality Disorder. *Annual Review of Clinical Psychology*, *1*(1), 355–380. https://doi.org/10/dpcs5p
+
+Twenge, J. M., Gentile, B., DeWall, C. N., Ma, D., Lacefield, K., & Schurtz, D. R. (2010). Birth cohort increases in psychopathology among young Americans, 1938–2007: A cross-temporal meta-analysis of the MMPI. *Clinical Psychology Review*, *30*(2), 145–154. https://doi.org/10.1016/j.cpr.2009.10.005
+
+Twenge, J. M., Sherman, R. A., & Lyubomirsky, S. (2016). More Happiness for Young People and Less for Mature Adults: Time Period Differences in Subjective Well-Being in the United States, 1972–2014. *Social Psychological and Personality Science*, *7*(2), 131–141. https://doi.org/10.1177/1948550615602933
+
+Vaughn Becker, D., & Neuberg, S. L. (2019). Archetypes Reconsidered as Emergent Outcomes of Cognitive Complexity and Evolved Motivational Systems. *Psychological Inquiry*, *30*(2), 59–75. https://doi.org/10.1080/1047840X.2019.1614795
+
+Wilt, J., & Revelle, W. (2015). Affect, Behaviour, Cognition and Desire in the Big Five: An Analysis of Item Content and Structure: ABCD scales. European Journal of Personality, 29(4), 478–497. https://doi.org/10/gdnfjz
+
