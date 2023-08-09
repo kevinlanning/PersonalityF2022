@@ -6,11 +6,11 @@ output:
   html_document: default
 ---
 
-This document is current as of `r Sys.Date()`.
+This document is current as of `r format(Sys.Date(),"%B %d, %Y")`.
 
 ### basics
 
-This is **PPE 3003 Section 1**. It is a 3-credit class offered in the **Fall 2021** term. The class meets **MW 1230-2 in WB 105**. There is no lab.
+This is **PPE 3003 Section 1**. It is a 3-credit class offered in the **Fall 2023** term. The class meets **MW 1230-2 in WB 105**. There is no lab.
 
 The professor is Kevin Lanning. My office hours are **M 3-5** (in person, WB 105) and **F 1230-2** (virtually, via Zoom). You may schedule virtual appointments at <https://calendly.com/kevin-lanning>. My office phone is (561) 594-1018, but it is quicker to reach me via email at [lanning\@fau.edu](mailto:lanning@fau.edu){.email}.
 
@@ -84,13 +84,13 @@ In addition, there are readings which are available on Canvas; these are listed 
 
 ### schedule and due dates
 
-The schedule is a dynamic document. While due dates for exams are, pending any university-wide mandates, fixed, all other dates and content are subject to change. Please monitor the working schedule for the latest updates. The live schedule is linked in Canvas; you may also find it at  <https://bit.ly/PersonalityF2022Schedule>, or in the following window (current as of `r Sys.Date()`):
+The schedule is a dynamic document. While due dates for exams are, pending any university-wide mandates, fixed, all other dates and content are subject to change. Please monitor the working schedule for the latest updates. The live schedule is linked in Canvas; you may also find it at  <https://bit.ly/PersonalityF23Schedule>, or in the following window (current as of `r Sys.Date()`):
 
-<iframe width="800" height="600" src="https://docs.google.com/spreadsheets/d/1CY8rRAtz9-dt3yCvuiDT2ThDMLeX5OCXGfgRioL4rSs/edit?usp=sharing">
+<iframe width="800" height="600" src="https://docs.google.com/spreadsheets/d/1OfNO1xI3VWb8bjO-NKRKZb15oEzoG8IBFXOAbgkYJ6s/edit?usp=sharing">
 
 </iframe>
 
-Again, please see <https://bit.ly/PersonalityF2022Schedule> for the latest updates.
+Again, please see <https://bit.ly/PersonalityF23Schedule> for the latest updates.
 
 **special course requirements**: None.
 
